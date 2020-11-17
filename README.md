@@ -24,6 +24,10 @@ colorscheme cobalt2
 <img alt="airline" src="https://user-images.githubusercontent.com/12150276/62639300-28c74a80-b937-11e9-8376-06bbefceaf10.png">
 
 ```vim
+" Install rigel
+Plug 'Rigellute/rigel'
+
+
 let g:rigel_airline = 1
 let g:airline_theme = 'rigel'
 ```
