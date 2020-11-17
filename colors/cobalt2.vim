@@ -27,11 +27,11 @@ if exists('g:cobalt2_bold')
 endif
 
 let g:cobalt2_bold = get(g:, 'cobalt2_bold', 0)
-hi ColorColumn guifg=NONE ctermfg=NONE guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#ffc600 ctermbg=209 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi LineNr guifg=#77929e ctermfg=246 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd guifg=#9cf087 ctermfg=156 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi DiffChange guifg=#00cccc ctermfg=44 guibg=#0E354B ctermbg=235 gui=underline cterm=underline
