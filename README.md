@@ -10,7 +10,7 @@
 ```vim
 """" install
 " install with vim-plug
-Plug 'GlennLeo/cobalt2.vim'
+Plug 'GlennLeo/cobalt2'
 
 """" enable 24bit true color
 set termguicolors
