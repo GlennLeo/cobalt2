@@ -2,14 +2,15 @@
 
 <em>cobalt2 colorscheme for vim - customized from rigel</em>
 
-<img width="1053" alt="image" src="https://user-images.githubusercontent.com/39697194/99364342-6fe90d00-28e8-11eb-9489-61485f7b013b.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/39697194/99926308-d9976a00-2d73-11eb-8a30-36de61a07ca0.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/39697194/99926385-17948e00-2d74-11eb-9739-9061fd058ee8.png">
 
 # Install
 
 ```vim
 """" install
 " install with vim-plug
-Plug 'GlennLeo/cobalt2'
+Plug 'GlennLeo/cobalt2.vim'
 
 """" enable 24bit true color
 set termguicolors
