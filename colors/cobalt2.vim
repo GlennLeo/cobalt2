@@ -41,7 +41,7 @@ hi ErrorMsg guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi VertSplit guifg=#517f8d ctermfg=66 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi Folded guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi SignColumn guifg=#b7cff9 ctermfg=153 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
-hi IncSearch guifg=#0E354B ctermfg=235 guibg=#FFE703 ctermbg=220 gui=NONE cterm=NONE
+hi IncSearch guifg=#0E354B ctermfg=235 guibg=#ffc600 ctermbg=220 gui=NONE cterm=NONE
 hi MatchParen guifg=#0E354B ctermfg=235 guibg=#00ffff ctermbg=14 gui=NONE cterm=NONE
 hi NonText guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#e6e6dc ctermfg=254 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
@@ -131,9 +131,9 @@ hi link jsFlowArray jsFlowArgumentDef
 hi link jsFlowExactObject jsFlowArgumentDef
 hi jsFlowParens guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowNoise jsFlowType
-hi jsFlowTypeof guifg=#FFE703 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowTypeof guifg=#ffc600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowTypeCustom jsFlowType
-hi jsFlowGeneric guifg=#FFE703 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowGeneric guifg=#ffc600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowObjectGeneric jsFlowGeneric
 hi link jsFlowArrow Function
 hi link jsFlowObjectKey jsVariableDef
@@ -216,7 +216,7 @@ let g:terminal_color_7 = "#77929e"
 let g:terminal_color_8 = "#517f8d"
 let g:terminal_color_9 = "#ff5a67"
 let g:terminal_color_10 = "#9cf087"
-let g:terminal_color_11 = "#FFE703"
+let g:terminal_color_11 = "#ffc600"
 let g:terminal_color_12 = "#7eb2dd"
 let g:terminal_color_13 = "#ffffff"
 let g:terminal_color_14 = "#00ffff"
