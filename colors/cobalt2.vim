@@ -28,7 +28,7 @@ endif
 
 let g:cobalt2_bold = get(g:, 'cobalt2_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
-hi Cursor guifg=NONE ctermfg=NONE guibg=#ffe703 ctermbg=209 gui=NONE cterm=NONE
+hi Cursor guifg=NONE ctermfg=NONE guibg=#ffc600 ctermbg=209 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
@@ -56,7 +56,7 @@ hi StatusLine guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=
 hi StatusLineNC guifg=#e6e6dc ctermfg=254 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi TabLine guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
-hi TabLineSel guifg=#e6e6dc ctermfg=254 guibg=#ffe703 ctermbg=31 gui=NONE cterm=NONE
+hi TabLineSel guifg=#e6e6dc ctermfg=254 guibg=#ffc600 ctermbg=31 gui=NONE cterm=NONE
 hi Title guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#194b5e ctermbg=23 gui=NONE cterm=NONE
 hi WildMenu guifg=#e6e6dc ctermfg=254 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
@@ -73,16 +73,16 @@ hi link Conditional Keyword
 hi link Repeat Keyword
 hi link Label Keyword
 hi link Operator Constant
-hi Keyword guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Keyword guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link PreProc Constant
 hi Include guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Define Include
 hi link Macro Include
-hi Type guifg=#ffe703 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
-hi Structure guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#9effff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#0088ff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -103,12 +103,12 @@ hi link jsTryCatchBlock Boolean
 hi link jsAsyncKeyword Boolean
 hi link jsForAwait Boolean
 hi jsGlobalNodeObjects guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsImport guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi jsImport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsFrom Keyword
 hi link jsModuleAs Keyword
 hi jsModuleKeyword guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsModuleAsterisk Keyword
-hi jsExport guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi jsExport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsExportDefault Keyword
 hi jsFlowDefinition guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowArgumentDef guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -164,14 +164,14 @@ hi markdownHeadingDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui
 hi markdownOrderedListMarker guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptVariable guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptVariable guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptValue guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptObjectLabel guifg=#9effff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptPrimaryType guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMember guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMemberOptionality guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariableDeclaration guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptProp guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptProp guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptStatement Keyword
 hi link typescriptStorageClass Keyword
 hi link typescriptExtendsKeyword Keyword
@@ -182,13 +182,13 @@ hi link typescriptTryCatchBlock Boolean
 hi link typescriptTernary Boolean
 hi link typescriptAsyncKeyword Boolean
 hi link typescriptObjectAsyncKeyword Boolean
-hi typescriptObjectColon guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptObjectColon guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptAsyncFor Boolean
 hi link typescriptForAwait Boolean
 hi typescriptGlobalNodeObjects guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptGlobal guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptImport guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptExportType guifg=#ffe703 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptImport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptExportType guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link typescriptImportType Keyword
 hi link typescriptFrom Keyword
 hi link typescriptModuleAs Keyword
@@ -209,7 +209,7 @@ let g:terminal_color_0 = "#00384d"
 let g:terminal_color_1 = "#c43060"
 let g:terminal_color_2 = "#7fc06e"
 let g:terminal_color_3 = "#ff9d00"
-let g:terminal_color_4 = "#ffe703"
+let g:terminal_color_4 = "#ffc600"
 let g:terminal_color_5 = "#ff9d00"
 let g:terminal_color_6 = "#00cccc"
 let g:terminal_color_7 = "#77929e"
