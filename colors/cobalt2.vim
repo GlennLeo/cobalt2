@@ -42,11 +42,11 @@ hi VertSplit guifg=#517f8d ctermfg=66 guibg=#0E354B ctermbg=235 gui=NONE cterm=N
 hi Folded guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi SignColumn guifg=#b7cff9 ctermfg=153 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi IncSearch guifg=#0E354B ctermfg=235 guibg=#ffc600 ctermbg=220 gui=NONE cterm=NONE
-hi MatchParen guifg=#0E354B ctermfg=235 guibg=#00ffff ctermbg=14 gui=NONE cterm=NONE
+hi MatchParen guifg=#0E354B ctermfg=235 guibg=#ffc600 ctermbg=14 gui=NONE cterm=NONE
 hi NonText guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#e6e6dc ctermfg=254 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
-hi PMenuSel guifg=#ffc600 ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
+hi PMenuSel guifg=#00ffff ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Search guifg=#0E354B ctermfg=235 guibg=#ff9d00 ctermbg=209 gui=NONE cterm=NONE
 hi SpellBad guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link SpellLocal SpellBad
@@ -57,7 +57,7 @@ hi StatusLineNC guifg=#e6e6dc ctermfg=254 guibg=#517f8d ctermbg=66 gui=NONE cter
 hi TabLine guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi TabLineSel guifg=#e6e6dc ctermfg=254 guibg=#ffc600 ctermbg=31 gui=NONE cterm=NONE
-hi Title guifg=#ffffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Title guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#194b5e ctermbg=23 gui=NONE cterm=NONE
 hi WildMenu guifg=#e6e6dc ctermfg=254 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Comment guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -82,9 +82,9 @@ hi link Macro Include
 hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
 hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#FF57BB ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
-hi Tag guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Tag guifg=#9effff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#0088ff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Debug guifg=#fb94ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
