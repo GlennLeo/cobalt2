@@ -42,7 +42,7 @@ hi VertSplit guifg=#517f8d ctermfg=66 guibg=#0E354B ctermbg=235 gui=NONE cterm=N
 hi Folded guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi SignColumn guifg=#b7cff9 ctermfg=153 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi IncSearch guifg=#0E354B ctermfg=235 guibg=#ffc600 ctermbg=220 gui=NONE cterm=NONE
-hi MatchParen guifg=#0E354B ctermfg=235 guibg=#ffc600 ctermbg=14 gui=NONE cterm=NONE
+hi MatchParen guifg=#0E354B ctermfg=235 guibg=#00ffff ctermbg=14 gui=NONE cterm=NONE
 hi NonText guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#e6e6dc ctermfg=254 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
@@ -79,7 +79,7 @@ hi link PreProc Constant
 hi Include guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Define Include
 hi link Macro Include
-hi Type guifg=#71CFFF ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
 hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -166,12 +166,12 @@ hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NO
 hi markdownCode guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariable guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptValue guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptObjectLabel guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptPrimaryType guifg=#FFFFFF ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptMember guifg=#9effff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptObjectLabel guifg=#ffc600 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptPrimaryType guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptMember guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMemberOptionality guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariableDeclaration guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptProp guifg=#FFFFFF ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptProp guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptStatement Keyword
 hi link typescriptStorageClass Keyword
 hi link typescriptExtendsKeyword Keyword
