@@ -46,7 +46,7 @@ hi MatchParen guifg=#0E354B ctermfg=235 guibg=#00ffff ctermbg=14 gui=NONE cterm=
 hi NonText guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#e6e6dc ctermfg=254 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
-hi PMenuSel guifg=#00ffff ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
+hi PMenuSel guifg=#ffc600 ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Search guifg=#0E354B ctermfg=235 guibg=#ff9d00 ctermbg=209 gui=NONE cterm=NONE
 hi SpellBad guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link SpellLocal SpellBad
@@ -219,7 +219,7 @@ let g:terminal_color_10 = "#9cf087"
 let g:terminal_color_11 = "#ffc600"
 let g:terminal_color_12 = "#7eb2dd"
 let g:terminal_color_13 = "#ffffff"
-let g:terminal_color_14 = "#ffc600"
+let g:terminal_color_14 = "#00ffff"
 let g:terminal_color_15 = "#b7cff9"
 
 " ===================================
