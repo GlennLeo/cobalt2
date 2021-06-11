@@ -219,7 +219,7 @@ let g:terminal_color_10 = "#9cf087"
 let g:terminal_color_11 = "#ffc600"
 let g:terminal_color_12 = "#7eb2dd"
 let g:terminal_color_13 = "#ffffff"
-let g:terminal_color_14 = "#00ffff"
+let g:terminal_color_14 = "#ffc600"
 let g:terminal_color_15 = "#b7cff9"
 
 " ===================================
