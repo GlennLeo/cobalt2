@@ -166,9 +166,9 @@ hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NO
 hi markdownCode guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariable guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptValue guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptObjectLabel guifg=#9effff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptPrimaryType guifg=#FF57BB ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptMember guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptObjectLabel guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptPrimaryType guifg=#FFFFFF ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptMember guifg=#9effff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMemberOptionality guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariableDeclaration guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptProp guifg=#FFFFFF ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
