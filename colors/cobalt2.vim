@@ -27,6 +27,7 @@ if exists('g:cobalt2_bold')
 endif
 
 let g:cobalt2_bold = get(g:, 'cobalt2_bold', 0)
+
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#ffc600 ctermbg=209 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
@@ -34,7 +35,7 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#1F4662 ctermbg=234 gui=NONE cterm=N
 hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#1F4662 ctermbg=234 gui=NONE cterm=NONE
 hi LineNr guifg=#77929e ctermfg=246 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd guifg=#9cf087 ctermfg=156 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
-hi DiffChange guifg=#00cccc ctermfg=44 guibg=#0E354B ctermbg=235 gui=underline cterm=underline
+hi DiffChange guifg=#ffc600  ctermfg=44 guibg=#0E354B ctermbg=235 gui=underline cterm=underline
 hi DiffDelete guifg=#c43060 ctermfg=167 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi DiffText guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -47,7 +48,7 @@ hi NonText guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#e6e6dc ctermfg=254 guibg=#0E354B ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi PMenuSel guifg=#00ffff ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
-hi Search guifg=#0E354B ctermfg=235 guibg=#ff9d00 ctermbg=209 gui=NONE cterm=NONE
+hi Search guifg=#0E354B ctermfg=235 guibg=#ff9900 ctermbg=209 gui=NONE cterm=NONE
 hi SpellBad guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link SpellLocal SpellBad
 hi link SpellCap SpellBad
@@ -66,14 +67,14 @@ hi String guifg=#9cf087 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Number Boolean
 hi link Float Boolean
-hi Identifier guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#80ffbb ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Statement guifg=#ff9d00 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#ff9900 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#ffc600 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Conditional Keyword
 hi link Repeat Keyword
 hi link Label Keyword
 hi link Operator Constant
-hi Keyword guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Keyword guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link PreProc Constant
 hi Include guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -82,7 +83,7 @@ hi link Macro Include
 hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
 hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#fff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#9effff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#0088ff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -102,19 +103,19 @@ hi link jsReturn Keyword
 hi link jsTryCatchBlock Boolean
 hi link jsAsyncKeyword Boolean
 hi link jsForAwait Boolean
-hi jsGlobalNodeObjects guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsImport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi jsGlobalNodeObjects guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsImport guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsFrom Keyword
 hi link jsModuleAs Keyword
 hi jsModuleKeyword guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsModuleAsterisk Keyword
 hi jsExport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsExportDefault Keyword
-hi jsFlowDefinition guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFlowArgumentDef guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowDefinition guifg=#ff9900 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowArgumentDef guifg=#ff9900 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowType guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowObject guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFlowTypeStatement guifg=#ff9d00 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowTypeStatement guifg=#ff9900 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowMaybe Keyword
 hi link jsFlowReturn jsFlowType
 hi link jsFlowReturnObject jsFlowType
@@ -129,7 +130,7 @@ hi link jsFlowWildcardReturn jsFlowType
 hi link jsFlowTypeofReturn jsFlowType
 hi link jsFlowArray jsFlowArgumentDef
 hi link jsFlowExactObject jsFlowArgumentDef
-hi jsFlowParens guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowParens guifg=#ffc600  ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowNoise jsFlowType
 hi jsFlowTypeof guifg=#ffc600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowTypeCustom jsFlowType
@@ -144,7 +145,7 @@ hi link jsFlowParenAnnotation jsFlowType
 hi link jsObjectMethodType Function
 hi link jsArrowFunction Function
 hi link jsObjectProp jsVariableDef
-hi jsObjectKey guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectKey guifg=#7BFFFF ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFunctionKey Function
 hi link jsRestExpression Keyword
 hi link jsGenerator Function
@@ -165,11 +166,11 @@ hi markdownOrderedListMarker guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gu
 hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariable guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptValue guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptValue guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptObjectLabel guifg=#ffc600 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptPrimaryType guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptMember guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptMemberOptionality guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptPrimaryType guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptMember guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptMemberOptionality guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariableDeclaration guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptProp guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptStatement Keyword
@@ -185,8 +186,8 @@ hi link typescriptObjectAsyncKeyword Boolean
 hi typescriptObjectColon guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptAsyncFor Boolean
 hi link typescriptForAwait Boolean
-hi typescriptGlobalNodeObjects guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptGlobal guifg=#ff9d00 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptGlobalNodeObjects guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptGlobal guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptImport guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi typescriptExportType guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link typescriptImportType Keyword
@@ -208,9 +209,9 @@ let g:terminal_color_background = "#0E354B"
 let g:terminal_color_0 = "#00384d"
 let g:terminal_color_1 = "#c43060"
 let g:terminal_color_2 = "#7fc06e"
-let g:terminal_color_3 = "#ff9d00"
+let g:terminal_color_3 = "#ff9900"
 let g:terminal_color_4 = "#ffc600"
-let g:terminal_color_5 = "#ff9d00"
+let g:terminal_color_5 = "#ff9900"
 let g:terminal_color_6 = "#00cccc"
 let g:terminal_color_7 = "#77929e"
 let g:terminal_color_8 = "#517f8d"
