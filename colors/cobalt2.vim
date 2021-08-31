@@ -83,7 +83,7 @@ hi link Macro Include
 hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
 hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#fff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#ffffff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#9effff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#0088ff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
