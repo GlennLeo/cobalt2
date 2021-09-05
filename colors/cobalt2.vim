@@ -1,10 +1,10 @@
 " ===============================================================
 " cobalt2 - customized from rigel created by Alexander Keliris (https://github.com/Rigellute/rigel)
 " 
-" URL: https://github.com/GlennLeo/cobalt2
+" URL: https://github.com/GlennLeo/cobalt2.vim
 " Author: GlennLeo
 " License: MIT
-" Last Change: 2021/8/5 14:07
+" Last Change: 2020/11/18 15:35
 " ===============================================================
 
 set background=dark
@@ -83,7 +83,7 @@ hi link Macro Include
 hi Type guifg=#ffc600 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi link StorageClass Keyword
 hi Structure guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Typedef guifg=#ffffff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Typedef guifg=#fff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#9effff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#0088ff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -95,7 +95,20 @@ hi Error guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#FF68B8 ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
+
+
+" JAVASCRIPT"
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSTagDelimiter  guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptIdentifier guifg=#FF68B8 ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSVariableBuiltin guifg=#FF68B8 ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptStatement guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSKeyword guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptReserved guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSTag guifg=#38FFB5 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSPunctBracket guifg=#FF68B8  ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSComment guifg=#0088ff  ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi link javaScriptComment javascriptTSComment
 hi link jsStatement Keyword
 hi link jsStorageClass Keyword
 hi link jsExtendsKeyword Keyword
@@ -168,7 +181,7 @@ hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NO
 hi markdownCode guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 "TYPESCRIPT
-hi TSTag guifg=#80ffbb ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSTag guifg=#38FFB5 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link tsxTagName TSTag
 hi link tsxTag TSTag
 hi link tsxRegion TSTag
@@ -182,11 +195,12 @@ hi typescriptImport guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE ct
 
 hi TSKeyword guifg=#ffc600 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSType guifg=#FF68B8 ctermfg=213 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi link typescriptTypeReference TSType
 
 hi typescriptDestructureVariable guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link typescriptIdentifierName typescriptDestructureVariable
 hi link tsxCloseTag typescriptDestructureVariable
 hi link tsxTSTagDelimiter typescriptDestructureVariable
+hi link typescriptCall typescriptDestructureVariable
 
 
 hi TSTagAttribute guifg=#ffc600 ctermfg=177 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
@@ -195,21 +209,26 @@ hi link tsxAttrib TSTagAttribute
 
 hi typescriptDestructureLabel guifg=#9effff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link TSProperty typescriptDestructureLabel
+hi link typescriptProp typescriptDestructureLabel
 
 hi TSOperator guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link typescriptArrowFunc TSOperator
 
 hi TSPuctBracket guifg=#80fcff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link typescriptBraces TSPuctBracket
+hi typescriptBraces guifg=#80fcff ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 hi typescriptObjectDestructure guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link typescriptIdentifierName typescriptObjectDestructure
 hi link TSVariable typescriptObjectDestructure
 hi link TSParameter typescriptObjectDestructure
 
 hi typescriptBraces guifg=#FF68B8 ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 hi typescriptVariable guifg=#ffc600 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link typescriptDestructureLabel typescriptVariable 
+hi link typescriptIdentifierName typescriptVariable 
+hi typescriptTSComment guifg=#0088ff ctermfg=177 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi link typescriptLineComment typescriptTSComment 
+
 hi typescriptValue guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptObjectLabel guifg=#ffc600 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptPrimaryType guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
