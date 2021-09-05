@@ -100,6 +100,7 @@ hi link diffRemoved DiffDelete
 " JAVASCRIPT"
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSTagDelimiter  guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSConstant guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptIdentifier guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSVariableBuiltin guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -109,6 +110,9 @@ hi javascriptTSTag guifg=#38FFB5 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cte
 hi javascriptTSPunctBracket guifg=#FF57BB  ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSComment guifg=#0088ff  ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link javaScriptComment javascriptTSComment
+hi javascriptTSString guifg=#84FF81 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link javaScriptStringS javascriptTSString 
+
 hi link jsStatement Keyword
 hi link jsStorageClass Keyword
 hi link jsExtendsKeyword Keyword
@@ -190,6 +194,10 @@ hi link TSConstructor TSTag
 hi link TSTypeBuiltin TSTag
 hi link typescriptPredefinedType TSTag
 
+
+hi tsxTSString guifg=#84FF81 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link typescriptString tsxTSString
+
 hi TSInclude guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptImport guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
@@ -201,6 +209,7 @@ hi typescriptDestructureVariable guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NO
 hi link tsxCloseTag typescriptDestructureVariable
 hi link tsxTSTagDelimiter typescriptDestructureVariable
 hi link typescriptCall typescriptDestructureVariable
+hi link tsxTSConstant typescriptDestructureVariable
 
 
 hi TSTagAttribute guifg=#ffc500 ctermfg=177 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
