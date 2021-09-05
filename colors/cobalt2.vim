@@ -200,13 +200,14 @@ hi link typescriptString tsxTSString
 
 hi TSInclude guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptImport guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi! link typescriptAsyncFuncKeyword  TSInclude
+hi link typescriptAsyncFuncKeyword  TSInclude
+hi link typescriptTSException TSInclude  
 
 hi TSKeyword guifg=#ffc500 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSType guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link typescriptTypeReference TSType
-hi link typescriptTSException TSType
-hi link typescriptTSPunctBracket TSType
+
+hi typescriptTSPunctBracket  guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 hi typescriptDestructureVariable guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link tsxCloseTag typescriptDestructureVariable
