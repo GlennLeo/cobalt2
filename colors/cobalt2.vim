@@ -101,6 +101,7 @@ hi link diffRemoved DiffDelete
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSTagDelimiter  guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSConstant guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptTSPunctDelimiter  guifg=#ffffff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptIdentifier guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTSVariableBuiltin guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -203,7 +204,8 @@ hi typescriptImport guifg=#ff9900 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE ct
 hi link typescriptAsyncFuncKeyword  TSInclude
 hi link typescriptTSException TSInclude  
 
-hi TSKeyword guifg=#ffc500 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeyword guifg=#ff9900 ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSException guifg=#fb94ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSType guifg=#FF57BB ctermfg=213 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link typescriptTypeReference TSType
 
@@ -214,6 +216,7 @@ hi link tsxCloseTag typescriptDestructureVariable
 hi link tsxTSTagDelimiter typescriptDestructureVariable
 hi link typescriptCall typescriptDestructureVariable
 hi link typescriptTSConstant typescriptDestructureVariable
+hi link typescriptTSPunctDelimiter  typescriptDestructureVariable
 
 
 hi TSTagAttribute guifg=#ffc500 ctermfg=177 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
