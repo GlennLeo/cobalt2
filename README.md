@@ -2,8 +2,9 @@
 
 <em>Cobalt2 color scheme for Vim/Neovim based off the Rigel color scheme</em>
 
-![image](https://user-images.githubusercontent.com/39697194/172789608-48a5fafb-bace-4653-917b-e7665f44143f.png)
-![image](https://user-images.githubusercontent.com/39697194/172789797-47e54a00-828b-4d73-9a2e-0392909b3f9b.png)
+![image](https://user-images.githubusercontent.com/39697194/172790101-f21c73e5-b3f2-4bf2-9374-08c3399bb6c6.png)
+![image](https://user-images.githubusercontent.com/39697194/172790150-3399da0b-e70d-4d09-9252-cbb440616e22.png)
+
 
 # Install
 
